@@ -89,6 +89,10 @@ p {
   margin-bottom: 16px;
 }
 
+.content-wrapper {
+  min-height: 100%;
+}
+
 .hero {
   margin: 0 auto;
   height: 600px;
@@ -168,7 +172,7 @@ nav .last {
   border-right: 0px solid #ffffff;
 }
 
-.test {
+.dark {
   margin: 0 auto;
   width: 100%;
   height: 90px;
@@ -177,7 +181,7 @@ nav .last {
   justify-content: space-around;
   border-bottom: 2px solid black;
 }
-.test a {
+.dark a {
   text-decoration: none;
   font-family: RegularSans;
   color: black;
@@ -186,7 +190,7 @@ nav .last {
   border-right: 2px solid #79addc;
   font-size: 15px;
 }
-.test .logo {
+.dark .logo {
   height: 42px;
   width: 92px;
   background-image: url(../images/logo-black.png);
@@ -448,6 +452,74 @@ nav .last {
 
 .man {
   background-image: url(../images/about-client-02.jpg);
+}
+
+.tours-wrapper {
+  min-height: 1270px;
+  max-width: 980px;
+  background-color: coral;
+  margin: 50px auto;
+}
+.tours-wrapper .tour-banner {
+  padding-left: 5px;
+  padding-right: 5px;
+  height: 200px;
+  width: 100%;
+  background-color: blueviolet;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tours-wrapper .tour-banner h1 {
+  font-family: Nova;
+  font-size: 80px;
+  color: #ffffff;
+}
+.tours-wrapper .tour-container {
+  margin: 0 auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  max-width: 818px;
+  min-height: 1000px;
+  background-color: royalblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.tours-wrapper .tour-container .test {
+  height: 100px;
+  width: 100px;
+  background-color: maroon;
+}
+
+.info-header {
+  width: 100%;
+  height: 413px;
+  background-color: royalblue;
+  margin-bottom: 40px;
+}
+
+.info-snapshot-container {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: limegreen;
+  margin-bottom: 30px;
+}
+.info-snapshot-container .snapshot {
+  height: 100%;
+  width: 300px;
+  background-color: maroon;
+}
+
+.info-text-container {
+  width: 100%;
+  height: 776px;
+  background-color: firebrick;
 }
 
 footer {
