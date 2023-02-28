@@ -1,0 +1,56 @@
+.tour-component {
+  width: 236px;
+  height: 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $site-white;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  h1 {
+    font-family: Nova;
+    font-size: 50px;
+  }
+  p {
+    font-family: Nova;
+    font-size: 30px;
+  }
+  .button-wrapper {
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    a {
+      text-decoration: none;
+      color: $site-white;
+      font-family: RegularSans;
+    }
+  }
+}
+.israel {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour1.jpg);
+}
+
+.america {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour2.jpg);
+}
+
+.aussie {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url(../images/tour3.jpg);
+}
+
+@media (max-width: 975px) {
+  .tour-component {
+    margin-bottom: 20px;
+    height: 304px;
+    font-size: 120%;
+  }
+}
