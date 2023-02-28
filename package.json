@@ -1,0 +1,22 @@
+{
+  "name": "homework-six",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n215-eplagge/homework-six.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n215-eplagge/homework-six/issues"
+  },
+  "homepage": "https://github.com/n215-eplagge/homework-six#readme",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}
