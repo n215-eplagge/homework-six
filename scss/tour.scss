@@ -1,14 +1,17 @@
 .tours-wrapper {
   min-height: $tour-height;
   max-width: $tour-width;
-  background-color: coral;
   margin: 50px auto;
   .tour-banner {
     padding-left: 5px;
     padding-right: 5px;
     height: 200px;
     width: 100%;
-    background-color: blueviolet;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+      url(../images/tour-header.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-bottom: 48px;
     display: flex;
     align-items: center;
@@ -25,7 +28,6 @@
     padding-right: 5px;
     max-width: 818px;
     min-height: 1000px;
-    background-color: royalblue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -34,6 +36,16 @@
       height: 100px;
       width: 100px;
       background-color: maroon;
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button-wrapper {
+      a {
+        @include site-button($site-blue, $button-padding, 10px 10px);
+      }
     }
   }
 }

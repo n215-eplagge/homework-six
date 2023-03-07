@@ -1,7 +1,7 @@
 .booking-wrapper {
   margin: 0 auto;
   height: 150%;
-  width: 75%;
+  max-width: 820px;
   .tour-wrapper {
     margin-top: -43px;
     min-height: 304px;
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 975px) {
+@media (max-width: 1000px) {
   .booking-wrapper {
     max-width: 100%;
     .tour-wrapper {
